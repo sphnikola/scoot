@@ -6,6 +6,4 @@
   background-image: url("./assets/images/home-hero-mobile.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  display: flex;
-  flex: 1;
 }
