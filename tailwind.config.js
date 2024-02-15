@@ -11,6 +11,9 @@ export default {
         "nav-link": "rgb(146, 155, 170)",
         "button-bg": "rgb(252, 183, 44)",
       },
+      backgroundImage: {
+        home_hero_mobile: "url('./src/assets/images/home-hero-mobile.jpg')",
+      },
     },
   },
   plugins: [],
