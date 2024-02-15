@@ -2,6 +2,7 @@ import logo from "./assets/logo.svg";
 import home_hero_mobile from "./assets/images/home-hero-mobile.jpg";
 import home_hero_tablet from "./assets/images/home-hero-tablet.jpg";
 import right_arrow from "./assets/patterns/right-arrow.svg";
+import white_circles from "./assets/patterns/white-circles.svg";
 function App() {
   return (
     <>
@@ -26,10 +27,10 @@ function App() {
           </div>
         </div>
       </header>
-      <section className="hero ">
-        <div className="max-w-[515px] mx-auto relative">
-          <div className="flex flex-col justify-center items-center text-center pt-[100px] pb-[140px] px-[54.5px] text-white gap-y-10">
-            <h2 className="text-[2.7em] leading-[43.2px] font-semibold ">
+      <section className="hero pt-[100px] pb-[140px] px-[54.5px] relative">
+        <div className="max-w-[515px] mx-auto ">
+          <div className="flex flex-col justify-center items-center text-center  text-white gap-y-10">
+            <h2 className="text-[2.7em] leading-[43.2px] font-semibold md:text-[3rem] md:leading-[48px] md:p-5 ">
               Scooter sharing made simple
             </h2>
             <p className="text-[0.9rem] max-w-[405px] leading-[25px]  font-semibold">
@@ -40,10 +41,6 @@ function App() {
             <button className="bg-button-bg px-14 py-3 border-2 border-solid border-button-bg text-white hover:text-yellow-500 hover:bg-transparent">
               Get Scootin
             </button>
-            <img
-              className="absolute top-[70%] right-[80%] "
-              src={right_arrow}
-            />
           </div>
         </div>
       </section>
