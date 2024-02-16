@@ -98,9 +98,41 @@
     width: 70%;
     height: 10px;
     position: absolute;
-    top: 39%;
+    top: 155px;
     left: 0px;
     z-index: -1;
+  }
+}
+
+@media (min-width: 1400px) {
+  .hero::before {
+    content: "";
+    background: url("./assets/patterns/line.svg");
+    background-repeat: no-repeat;
+    position: absolute;
+    background-position: center left;
+    top: 0px;
+    left: -30px;
+    right: 0px;
+    bottom: 14px;
+  }
+
+  .hero::after {
+    content: "";
+    background: url("./assets/patterns/right-arrow.svg");
+    background-repeat: no-repeat;
+    position: absolute;
+    background-position: bottom right;
+    top: 0px;
+    left: 0px;
+    right: 300px;
+    bottom: 150px;
+  }
+
+  .hero {
+    background-image: url("./assets/images/home-hero-desktop.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 }
 
