@@ -29,8 +29,8 @@ function App() {
       </header>
       <section className="hero pt-[100px] pb-[140px] px-[54.5px] relative">
         <div className="max-w-[515px] mx-auto ">
-          <div className="flex flex-col justify-center items-center text-center  text-white gap-y-10">
-            <h2 className="text-[2.7em] leading-[43.2px] font-semibold md:text-[3rem] md:leading-[48px] md:p-5 ">
+          <div className="flex flex-col justify-center items-center text-center  text-white gap-y-10 lg:text-left lg:items-start">
+            <h2 className="text-[2.7em] leading-[43.2px] font-semibold md:text-[3rem] md:leading-[48px] md:p-5 lg:relative lg:right-[20%]">
               Scooter sharing made simple
             </h2>
             <p className="text-[0.9rem] max-w-[405px] leading-[25px]  font-semibold">
