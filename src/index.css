@@ -50,6 +50,16 @@
     background-size: cover;
     background-repeat: no-repeat;
   }
+  .steps::before {
+    content: "";
+    background-color: #e6edf4;
+    width: 10px;
+    height: 88%;
+    position: absolute;
+    top: 0;
+    left: 72px;
+    z-index: -1;
+  }
 }
 @media (min-width: 875px) {
   .hero::before {
@@ -80,6 +90,17 @@
     background-image: url("./assets/images/home-hero-desktop.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+  }
+
+  .steps::before {
+    content: "";
+    background-color: #e6edf4;
+    width: 70%;
+    height: 10px;
+    position: absolute;
+    top: 39%;
+    left: 0px;
+    z-index: -1;
   }
 }
 

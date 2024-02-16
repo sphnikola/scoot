@@ -48,8 +48,8 @@ function App() {
         </div>
       </section>
       <main>
-        <section className="steps">
-          <div className="px-[28.55px]  space-y-16 lg:flex lg:space-y-0 lg:gap-x-8">
+        <section className="steps relative">
+          <div className="px-[30px] pt-28 space-y-16 lg:flex lg:space-y-0 lg:gap-x-8 lg:pl-[60px]">
             <div className="flex flex-col items-center text-center gap-y-4 md:flex-row md:text-left lg:flex-col lg:items-start">
               <img className=" w-[98px]" src={locate} />
               <div className="space-y-8 md:pl-7 lg:pl-0">
