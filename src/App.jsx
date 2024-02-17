@@ -1,11 +1,12 @@
 import logo from "./assets/logo.svg";
 import { Hero } from "./Hero";
 import { MainSection } from "./MainSection";
+import { NavbarSimple } from "./NavbarSimple";
 import { Steps } from "./Steps";
 function App() {
   return (
     <>
-      <header className="max-w-full font-mono">
+      {/* <header className="max-w-full font-mono">
         <div className="py-2">
           <div className="flex flex-col items-center gap-y-2 md:flex-row md:justify-around md:items-center">
             <div className="space-y-2 md:flex md:gap-x-7 lg:gap-x-14">
@@ -25,7 +26,8 @@ function App() {
             </button>
           </div>
         </div>
-      </header>
+      </header> */}
+      <NavbarSimple />
       <Hero />
       <MainSection>
         <Steps />
