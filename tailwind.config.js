@@ -6,7 +6,7 @@ module.exports = withMT({
   theme: {
     extend: {
       screens: {
-        md: "640px",
+        md: "580px",
         lg: "875px",
         xl: "1400px",
       },

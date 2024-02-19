@@ -20,7 +20,7 @@
   /* opacity: 0.5; */
 }
 
-@media (min-width: 640px) {
+@media (min-width: 580px) {
   .hero::before {
     content: "";
     background: url("./assets/patterns/right-arrow.svg");
