@@ -1,8 +1,8 @@
 import logo from "./assets/logo.svg";
-import { Hero } from "./Hero";
-import { MainSection } from "./MainSection";
-import { NavbarSimple } from "./NavbarSimple";
-import { Steps } from "./Steps";
+import { Hero } from "./components/Hero";
+import { MainSection } from "./components/MainSection";
+import { NavbarSimple } from "./components/NavbarSimple";
+import { Steps } from "./components/Steps";
 function App() {
   return (
     <>
