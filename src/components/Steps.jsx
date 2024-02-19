@@ -1,6 +1,6 @@
-import locate from "./assets/icons/locate.svg";
-import scooter from "./assets/icons/scooter.svg";
-import ride from "./assets/icons/ride.svg";
+import locate from "../assets/icons/locate.svg";
+import scooter from "../assets/icons/scooter.svg";
+import ride from "../assets/icons/ride.svg";
 
 export function Steps() {
   return (
