@@ -1,3 +1,5 @@
+import { Button } from "./Button";
+
 export function Hero() {
   return (
     <>
@@ -12,9 +14,10 @@ export function Hero() {
               placed in convenient locations in each of our cities. Use our app
               to locate the nearest bike, unlock it with a tap, and you’re away!
             </p>
-            <button className="bg-button-bg px-14 py-3 border-2 border-solid border-button-bg text-white hover:text-yellow-500 hover:bg-transparent">
+            <Button text="Get Scootin" />
+            {/* <button className="bg-button-bg px-14 py-3 border-2 border-solid border-button-bg text-white hover:text-yellow-500 hover:bg-transparent">
               Get Scootin
-            </button>
+            </button> */}
           </div>
         </div>
       </section>

@@ -5,7 +5,7 @@ import ride from "../assets/icons/ride.svg";
 export function Steps() {
   return (
     <>
-      <section className="steps relative ">
+      <section className="steps relative mb-[150px]">
         <div className="px-[30px] pt-28 space-y-16 lg:flex lg:space-y-0 lg:gap-x-8 lg:px-[60px]">
           <div className="flex flex-col items-center text-center gap-y-4 md:flex-row md:text-left lg:flex-col lg:items-start">
             <img className=" w-[98px]" src={locate} />
