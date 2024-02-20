@@ -49,9 +49,9 @@
   background: url("./assets/patterns/semi-circles.svg");
   position: absolute;
   background-repeat: no-repeat;
-  background-position: bottom right;
+  background-position: center right;
   top: 0;
-  bottom: 0;
+  bottom: -135px;
   left: 0;
   right: -100px;
 }
@@ -227,6 +227,18 @@
     right: 0px;
     bottom: -40px;
     z-index: -1;
+  }
+
+  .footer_1st::after {
+    /* content: "";
+    background: url("./assets/patterns/semi-circles.svg");
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center right; */
+    top: 0;
+    bottom: -80px;
+    left: 0;
+    right: -100px;
   }
 }
 
