@@ -44,6 +44,17 @@
   bottom: 400px;
   z-index: 1;
 }
+.footer_1st::after {
+  content: "";
+  background: url("./assets/patterns/semi-circles.svg");
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: -100px;
+}
 
 @media (min-width: 580px) {
   .hero::before {

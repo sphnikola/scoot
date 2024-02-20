@@ -15,6 +15,8 @@ module.exports = withMT({
         "button-bg": "rgb(252, 183, 44)",
         "p-color": "rgb(146,155,170)",
         "h4-color": "rgb(74,86,104)",
+        "footer1st-bg": "rgb(74,86,104)",
+        "footer2nd-bg": "rgb(51,58,68)",
       },
       backgroundImage: {
         home_hero_mobile: "url('./src/assets/images/home-hero-mobile.jpg')",

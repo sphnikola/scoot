@@ -1,4 +1,5 @@
 import logo from "./assets/logo.svg";
+import { Footer } from "./components/Footer";
 import { Hero } from "./components/Hero";
 import { MainSection } from "./components/MainSection";
 import { NavbarSimple } from "./components/NavbarSimple";
@@ -7,12 +8,15 @@ import { Telemetry } from "./components/Telemetry";
 function App() {
   return (
     <>
-      <NavbarSimple />
-      <Hero />
-      <MainSection>
-        <Steps />
-        <Telemetry />
-      </MainSection>
+      <div className=" max-w-max mx-auto overflow-x-hidden">
+        <NavbarSimple />
+        <Hero />
+        <MainSection>
+          <Steps />
+          <Telemetry />
+        </MainSection>
+        <Footer />
+      </div>
     </>
   );
 }
