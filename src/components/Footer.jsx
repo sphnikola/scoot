@@ -26,10 +26,10 @@ export function Footer() {
           </div>
         </section>
         <section className="footer_2nd bg-footer2nd-bg py-[25px] px-[33px] ">
-          <div className="flex justify-between ">
-            <nav className="flex gap-x-8 items-center">
+          <div className="flex flex-col items-center lg:flex-row lg:justify-between ">
+            <nav className="flex flex-col lg:flex-row lg:gap-x-8 lg:items-center">
               <img src={logo} className="object-contain" />
-              <ul className="flex gap-x-3">
+              <ul className="flex flex-col  text-center lg:flex-row lg:gap-x-3">
                 <li>About</li>
                 <li>Location</li>
                 <li>Services</li>
