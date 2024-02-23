@@ -10,7 +10,7 @@ import Home from "./pages/Home";
 function App() {
   return (
     <>
-      <div className=" max-w-max mx-auto overflow-x-hidden">
+      <div className=" max-w-max mx-auto overflow-hidden">
         <NavbarSimple />
         {/* <Hero />
         <MainSection>
