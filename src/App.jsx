@@ -5,6 +5,7 @@ import { MainSection } from "./components/MainSection";
 import { NavbarSimple } from "./components/NavbarSimple";
 import { Steps } from "./components/Steps";
 import { Telemetry } from "./components/Telemetry";
+import About from "./pages/About";
 import Home from "./pages/Home";
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
           <Steps />
           <Telemetry />
         </MainSection> */}
-        <Home />
+        <About />
+        {/* <Home /> */}
         <Footer />
       </div>
     </>
