@@ -1,7 +1,7 @@
 import telemetry from "../assets/images/telemetry.jpg";
 import second_telemetry from "../assets/images/near-you.jpg";
 import tech from "../assets/images/our-tech.jpg";
-
+import { AccordionCustomIcon } from "../components/AccordionCustomIcon";
 export default function About() {
   return (
     <>
@@ -99,6 +99,24 @@ export default function About() {
                 transportation forward. Our fully electric scooters are a joy to
                 ride
               </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="faqs">
+        <div>
+          <h4>FAQS</h4>
+          <div className=" mb-10 flex flex-col items-center lg:flex-row lg:gap-x-28">
+            <h4 className="">How it works</h4>
+            <div className="">
+              <AccordionCustomIcon />
+            </div>
+          </div>
+          <div className="flex flex-col items-center lg:flex-row lg:gap-x-28">
+            <h4 className="">Safe Driving</h4>
+            <div className="">
+              <AccordionCustomIcon />
             </div>
           </div>
         </div>
