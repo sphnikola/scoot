@@ -2,11 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+/* body {
   padding-left: 8vw;
   padding-right: 8vw;
   overflow-x: hidden;
-}
+} */
 
 .hero {
   background-image: url("./assets/images/home-hero-mobile.jpg");
