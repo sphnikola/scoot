@@ -6,6 +6,7 @@ import { NavbarSimple } from "./components/NavbarSimple";
 import { Steps } from "./components/Steps";
 import { Telemetry } from "./components/Telemetry";
 import About from "./pages/About";
+import Careers from "./pages/Careers";
 import Home from "./pages/Home";
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
           <Steps />
           <Telemetry />
         </MainSection> */}
-        <About />
+        {/* <About /> */}
+        <Careers />
         {/* <Home /> */}
         <Footer />
       </div>
