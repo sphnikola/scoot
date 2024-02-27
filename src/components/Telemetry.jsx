@@ -6,7 +6,7 @@ import { Button } from "./Button";
 export function Telemetry() {
   return (
     <>
-      <section className="telemetry relative p-[8vw]">
+      <section className="telemetry relative px-[8vw] ">
         <div className="flex flex-col items-center text-center gap-y-8  lg:flex-row-reverse lg:text-left ">
           <img
             className="rounded-full    object-contain lg:w-full"
@@ -28,7 +28,7 @@ export function Telemetry() {
         </div>
       </section>
 
-      <section className="second-telemetry relative lg:text-left p-[8vw]">
+      <section className="second-telemetry relative lg:text-left px-[8vw] mt-24">
         <div className="flex flex-col items-center text-center gap-y-8  lg:flex-row lg:text-left ">
           <img
             className="rounded-full    object-contain lg:w-full"
@@ -50,7 +50,7 @@ export function Telemetry() {
         </div>
       </section>
 
-      <section className="telemetry relative p-[8vw]">
+      <section className="telemetry relative px-[8vw] mt-24 mb-20">
         <div className="flex flex-col items-center text-center gap-y-8  lg:flex-row-reverse lg:text-left ">
           <img
             className="rounded-full    object-contain lg:w-full"
