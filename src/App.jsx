@@ -19,8 +19,8 @@ function App() {
           <Telemetry />
         </MainSection> */}
         {/* <About /> */}
-        <Careers />
-        {/* <Home /> */}
+        {/* <Careers /> */}
+        <Home />
         <Footer />
       </div>
     </>
