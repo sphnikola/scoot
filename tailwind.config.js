@@ -17,9 +17,13 @@ module.exports = withMT({
         "h4-color": "rgb(74,86,104)",
         "footer1st-bg": "rgb(74,86,104)",
         "footer2nd-bg": "rgb(51,58,68)",
+        "jobs-bg": "rgb(230,237,244)",
       },
       backgroundImage: {
         home_hero_mobile: "url('./src/assets/images/home-hero-mobile.jpg')",
+      },
+      fontFamily: {
+        mono: ["Space-Mono", "monospace"],
       },
     },
   },

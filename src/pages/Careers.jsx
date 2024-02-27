@@ -10,7 +10,9 @@ export default function Careers() {
     <>
       <section className="about_hero relative py-[50px] px-[26px]">
         <div>
-          <h2 className="text-center md:text-left">Career</h2>
+          <h2 className="text-center text-white text-[43.2px] leading-[43.2px] tracking-[2px] md:text-left md:text-[48px] md:tracking-normal  space-mono-bold">
+            Career
+          </h2>
         </div>
       </section>
 
@@ -85,6 +87,51 @@ export default function Careers() {
               </p>
             </div>
           </div>
+        </div>
+      </section>
+
+      <section className="jobs p-[8vw] space-y-5 text-center md:text-left">
+        <div className=" bg-jobs-bg flex flex-col items-center gap-y-3 py-5 md:flex-row md:justify-between md:items-center md:px-7">
+          <span>
+            <h4>General Manager</h4>
+            <p>Jakarta, Indonesia</p>
+          </span>
+          <Button text="Apply" />
+        </div>
+        <div className=" bg-jobs-bg flex flex-col items-center gap-y-3 py-5 md:flex-row md:justify-between md:items-center md:px-7">
+          <span>
+            <h4>UI/UX Designer</h4>
+            <p>Yokohama, Japan</p>
+          </span>
+          <Button text="Apply" />
+        </div>
+        <div className=" bg-jobs-bg flex flex-col items-center gap-y-3 py-5 md:flex-row md:justify-between md:items-center md:px-7">
+          <span>
+            <h4>Blog Content Copywriter</h4>
+            <p>New York, United States</p>
+          </span>
+          <Button text="Apply" />
+        </div>
+        <div className=" bg-jobs-bg flex flex-col items-center gap-y-3 py-5 md:flex-row md:justify-between md:items-center md:px-7">
+          <span>
+            <h4>Graphic Designer</h4>
+            <p>New York, United States</p>
+          </span>
+          <Button text="Apply" />
+        </div>
+        <div className=" bg-jobs-bg flex flex-col items-center gap-y-3 py-5 md:flex-row md:justify-between md:items-center md:px-7">
+          <span>
+            <h4>Fleet Supervisor</h4>
+            <p>Jakarta, Indonesia</p>
+          </span>
+          <Button text="Apply" />
+        </div>
+        <div className=" bg-jobs-bg flex flex-col items-center gap-y-3 py-5 md:flex-row md:justify-between md:items-center md:px-7">
+          <span>
+            <h4>UX Analyst</h4>
+            <p>London, United Kingdom</p>
+          </span>
+          <Button text="Apply" />
         </div>
       </section>
     </>

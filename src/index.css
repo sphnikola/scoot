@@ -2,11 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-/* body {
-  padding-left: 8vw;
-  padding-right: 8vw;
-  overflow-x: hidden;
-} */
+.space-mono-bold {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
 
 .hero {
   background-image: url("./assets/images/home-hero-mobile.jpg");
