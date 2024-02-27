@@ -8,7 +8,7 @@ module.exports = withMT({
       screens: {
         md: "580px",
         lg: "875px",
-        xl: "1400px",
+        xl: "1300px",
       },
       colors: {
         "nav-link": "rgb(146, 155, 170)",
@@ -21,9 +21,6 @@ module.exports = withMT({
       },
       backgroundImage: {
         home_hero_mobile: "url('./src/assets/images/home-hero-mobile.jpg')",
-      },
-      fontFamily: {
-        mono: ["Space-Mono", "monospace"],
       },
     },
   },
