@@ -15,7 +15,7 @@ export default function About() {
         </div>
       </section>
 
-      <section className="telemetry relative p-[8vw]">
+      <section className="mt-24 telemetry relative px-[8vw]">
         <div className="flex flex-col items-center text-center gap-y-8  lg:flex-row-reverse lg:text-left ">
           <img
             className="rounded-full    object-contain lg:w-full"
@@ -36,7 +36,7 @@ export default function About() {
         </div>
       </section>
 
-      <section className="second-telemetry relative lg:text-left p-[8vw]">
+      <section className="my-24 second-telemetry relative lg:text-left px-[8vw]">
         <div className="flex flex-col items-center text-center gap-y-8  lg:flex-row lg:text-left ">
           <img
             className="rounded-full    object-contain lg:w-full"
