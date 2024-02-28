@@ -24,13 +24,12 @@ export default function About() {
 
           <div className="space-y-5 xl:pr-60">
             <h2 className=" text-h4-color space-mono-bold text-[43.2px] leading-[43.2px] md:text-[48px]">
-              Easy to use riding telemetry
+              Mobility for the digital era
             </h2>
             <p className="px-[30px] md:pl-[0px] text-p-color text-[14.4px] leading-[24px] lg:text-[15px] lg:leading-[25px] ">
-              The Scoot app is available with riding telemetry. This means it
-              can show you your average speed, how long you've been using the
-              scooter, your traveling distance, and many more things all in an
-              easy to use app.
+              Getting around should be simple (and even fun!) for everyone. We
+              embrace technology to provide low cost, smart access to scooters
+              at your fingertips.
             </p>
             {/* <Button text="Say Hello" /> */}
           </div>
@@ -46,13 +45,12 @@ export default function About() {
 
           <div className="space-y-5 lg:pl-32 xl:pl-60">
             <h2 className=" text-h4-color space-mono-bold text-[43.2px] leading-[43.2px] md:text-[48px]">
-              Easy to use riding telemetry
+              Better urban living
             </h2>
             <p className="px-[30px] md:pl-[0px] text-p-color text-[14.4px] leading-[24px] lg:text-[15px] lg:leading-[25px] ">
-              The Scoot app is available with riding telemetry. This means it
-              can show you your average speed, how long you've been using the
-              scooter, your traveling distance, and many more things all in an
-              easy to use app.
+              We’re helping connect cities and bring people closer together. Our
+              scooters are also fully-electric and we offset the minimal carbon
+              footprint for each ride.
             </p>
             {/* <Button text="Say Hello" /> */}
           </div>
@@ -125,11 +123,15 @@ export default function About() {
         </div>
       </section>
 
-      <section className="faqs p-[8vw]">
+      <section className="faqs p-[8vw] mb-20  my-10">
         <div>
-          <h4 className="text-center">FAQS</h4>
-          <div className=" mb-10 flex flex-col items-center lg:flex-row lg:gap-x-28 lg:justify-center">
-            <h4 className="">How it works</h4>
+          <h4 className="text-center space-mono-bold text-[43.2px] leading-[43.2px] md:text-[48px] md:leading-[48px] text-h4-color mb-10">
+            FAQS
+          </h4>
+          <div className=" mb-10 flex flex-col items-center lg:flex-row lg:gap-x-28 lg:justify-center lg:items-start">
+            <h3 className="text-h4-color space-mono-bold text-[40px] leading-[48px] mb-5">
+              How it works
+            </h3>
             <div className="">
               <AccordionCustomIcon
                 headerOne="How do i download the app"
@@ -141,9 +143,32 @@ export default function About() {
               />
             </div>
           </div>
-          <div className="flex flex-col items-center lg:flex-row lg:gap-x-28">
-            <h4 className="">Safe Driving</h4>
-            <div className="">{/* <AccordionCustomIcon /> */}</div>
+          <div className="flex flex-col items-center lg:flex-row lg:gap-x-28 lg:justify-center lg:items-start">
+            <h4 className="text-h4-color space-mono-bold text-[40px] leading-[48px] mb-5">
+              Safe Driving
+            </h4>
+            <div className="">
+              <AccordionCustomIcon
+                headerOne="Should I wear a helmet?"
+                bodyOne="
+              Yes, please do! All cities have different laws. But we strongly strongly strongly recommend 
+              always wearing a helmet regardless of the local laws. We like you and we want you to be as 
+              safe as possible while Scooting.
+            "
+                headerTwo="How about the rules & regulations?"
+                bodyTwo=" 
+              Now is not the time to be a rule breaker. Be sure you're complying with all local laws and 
+              regulations. Also, just be a good human being. Be sure not to park your Scoot where it can 
+              block access to buildings or get in people's way.
+            "
+                headerThree="What if I damage my Scoot?"
+                bodyThree="
+              Be sure to read our terms and conditions carefully. Not the most fun job we know but we make 
+              it as clear as possible. There's an option to add insurance for each trip, or you can sign 
+              up for annual insurance if you're a regular Scooter.
+            "
+              />
+            </div>
           </div>
         </div>
       </section>

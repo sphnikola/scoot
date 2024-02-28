@@ -18,9 +18,9 @@ function App() {
           <Steps />
           <Telemetry />
         </MainSection> */}
-        {/* <About /> */}
+        <About />
         {/* <Careers /> */}
-        <Home />
+        {/* <Home /> */}
         <Footer />
       </div>
     </>
