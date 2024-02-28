@@ -6,10 +6,11 @@ import {
   IconButton,
 } from "@material-tailwind/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import logo from "../assets/logo.svg";
 
 function NavList() {
   return (
-    <ul className="my-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
+    <ul className="my-2 flex flex-col gap-2 md:mb-0 md:mt-0 md:flex-row md:items-center md:gap-6">
       <Typography
         as="li"
         variant="small"
@@ -70,20 +71,21 @@ export function NavbarSimple() {
   return (
     <Navbar className="mx-auto max-w-full px-6 py-3">
       <div className="flex items-center justify-between text-blue-gray-900">
-        <Typography
+        {/* <Typography
           as="a"
           href="#"
           variant="h6"
           className="mr-4 cursor-pointer py-1.5"
         >
           Material Tailwind
-        </Typography>
-        <div className="hidden lg:block">
+        </Typography> */}
+        <img className="object-contain" src={logo} />
+        <div className="hidden md:block">
           <NavList />
         </div>
         <IconButton
           variant="text"
-          className="ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
+          className="ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent md:hidden"
           ripple={false}
           onClick={() => setOpenNav(!openNav)}
         >
