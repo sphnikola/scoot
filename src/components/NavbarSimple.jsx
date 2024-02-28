@@ -7,19 +7,20 @@ import {
 } from "@material-tailwind/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import logo from "../assets/logo.svg";
+import { Button } from "./Button";
 
 function NavList() {
   return (
-    <ul className="my-2 flex flex-col gap-2 md:mb-0 md:mt-0 md:flex-row md:items-center md:gap-6">
+    <ul className="my-2 flex flex-col gap-2 md:mb-0 md:mt-0 md:flex-row md:items-center md:gap-6 lg:gap-x-12 space-mono-bold text-p-color">
       <Typography
         as="li"
         variant="small"
         color="blue-gray"
-        className="p-1 font-medium"
+        className="p-1 font-medium "
       >
         <a
           href="#"
-          className="flex items-center hover:text-blue-500 transition-colors"
+          className="flex items-center hover:text-[rgb(252,183,44)] transition-colors space-mono-bold text-p-color"
         >
           About
         </a>
@@ -32,7 +33,7 @@ function NavList() {
       >
         <a
           href="#"
-          className="flex items-center hover:text-blue-500 transition-colors"
+          className="hover:text-[rgb(252,183,44)] flex items-center  transition-colors space-mono-bold text-p-color"
         >
           Location
         </a>
@@ -45,7 +46,7 @@ function NavList() {
       >
         <a
           href="#"
-          className="flex items-center hover:text-blue-500 transition-colors"
+          className="flex items-center hover:text-[rgb(252,183,44)] transition-colors space-mono-bold text-p-color"
         >
           Careers
         </a>
@@ -79,9 +80,14 @@ export function NavbarSimple() {
         >
           Material Tailwind
         </Typography> */}
-        <img className="object-contain" src={logo} />
-        <div className="hidden md:block">
-          <NavList />
+        <div className="flex md:gap-x-14 ">
+          <img className="object-contain" src={logo} />
+          <div className=" hidden md:block">
+            <NavList />
+          </div>
+        </div>
+        <div className="hidden md:block ">
+          <Button text="Get Scootin" />
         </div>
         <IconButton
           variant="text"
@@ -98,6 +104,7 @@ export function NavbarSimple() {
       </div>
       <Collapse open={openNav}>
         <NavList />
+        <Button text="Get Scootin" />
       </Collapse>
     </Navbar>
   );
