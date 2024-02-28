@@ -10,7 +10,7 @@ export function Steps() {
           <div className="flex flex-col items-center text-center gap-y-4 md:flex-row md:text-left lg:flex-col lg:items-start">
             <img className=" w-[98px]" src={locate} />
             <div className="space-y-8 md:pl-7 md:space-y-3 lg:pl-0">
-              <h4 className=" md:pl-7 lg:pl-0 text-[20px] leading-[23.4px] font-semibold md:text-[24px] md:leading-[28px] text-h4-color">
+              <h4 className=" space-mono-bold md:pl-7 lg:pl-0 text-[20px] leading-[23.4px] font-semibold md:text-[24px] md:leading-[28px] text-h4-color">
                 Locate with app
               </h4>
               <p className="text-[0.9em] leading-[24px] px-7  md:text-[15px] md:leading-[25px] md:pr-16 lg:px-0 text-p-color">
@@ -23,7 +23,7 @@ export function Steps() {
           <div className="flex flex-col items-center text-center gap-y-4 md:flex-row md:text-left lg:flex-col lg:items-start">
             <img className=" w-[98px]" src={scooter} />
             <div className="space-y-8 md:pl-7 md:space-y-3 lg:pl-0">
-              <h4 className=" md:pl-7 lg:pl-0 text-[20px] leading-[23.4px] font-semibold md:text-[24px] md:leading-[28px] text-h4-color">
+              <h4 className="space-mono-bold md:pl-7 lg:pl-0 text-[20px] leading-[23.4px] font-semibold md:text-[24px] md:leading-[28px] text-h4-color">
                 Pick your scooter
               </h4>
               <p className="text-[0.9em] leading-[24px] px-7  md:text-[15px] md:leading-[25px] md:pr-16 lg:px-0 text-p-color">
@@ -36,7 +36,7 @@ export function Steps() {
           <div className="flex flex-col items-center text-center gap-y-4 md:flex-row md:text-left lg:flex-col lg:items-start">
             <img className=" w-[98px]" src={ride} />
             <div className="space-y-8 md:pl-7 md:space-y-3 lg:pl-0">
-              <h4 className=" md:pl-7 lg:pl-0 text-[20px] leading-[23.4px] font-semibold md:text-[24px] md:leading-[28px] text-h4-color">
+              <h4 className="space-mono-bold md:pl-7 lg:pl-0 text-[20px] leading-[23.4px] font-semibold md:text-[24px] md:leading-[28px] text-h4-color">
                 Enjoy the ride
               </h4>
               <p className="text-[0.9em] leading-[24px] px-7  md:text-[15px] md:leading-[25px] md:pr-16 lg:px-0  text-p-color">
