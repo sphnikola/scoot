@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  overflow-x: hidden;
+}
 .space-mono-bold {
   font-family: "Space Mono", monospace;
   font-weight: 700;

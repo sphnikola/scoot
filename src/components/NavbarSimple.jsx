@@ -8,6 +8,7 @@ import {
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import logo from "../assets/logo.svg";
 import { Button } from "./Button";
+import { Link } from "react-router-dom";
 
 function NavList() {
   return (
@@ -18,12 +19,13 @@ function NavList() {
         color="blue-gray"
         className="p-1 font-medium "
       >
-        <a
+        <Link
+          to="About"
           href="#"
           className="flex items-center hover:text-[rgb(252,183,44)] transition-colors space-mono-bold text-p-color"
         >
           About
-        </a>
+        </Link>
       </Typography>
       <Typography
         as="li"
@@ -31,12 +33,13 @@ function NavList() {
         color="blue-gray"
         className="p-1 font-medium"
       >
-        <a
+        <Link
+          to="Location"
           href="#"
           className="hover:text-[rgb(252,183,44)] flex items-center  transition-colors space-mono-bold text-p-color"
         >
           Location
-        </a>
+        </Link>
       </Typography>
       <Typography
         as="li"
@@ -44,12 +47,13 @@ function NavList() {
         color="blue-gray"
         className="p-1 font-medium"
       >
-        <a
+        <Link
+          to="Careers"
           href="#"
           className="flex items-center hover:text-[rgb(252,183,44)] transition-colors space-mono-bold text-p-color"
         >
           Careers
-        </a>
+        </Link>
       </Typography>
     </ul>
   );
@@ -81,7 +85,9 @@ export function NavbarSimple() {
           Material Tailwind
         </Typography> */}
         <div className="flex md:gap-x-14 ">
-          <img className="object-contain" src={logo} />
+          <Link to="/">
+            <img className="object-contain" src={logo} />
+          </Link>
           <div className=" hidden md:block">
             <NavList />
           </div>

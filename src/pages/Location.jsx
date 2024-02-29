@@ -1,3 +1,5 @@
+import map_mobile from "../assets/images/world-map-mobile.png";
+import { Button } from "../components/Button";
 export function Location() {
   return (
     <>
@@ -6,6 +8,46 @@ export function Location() {
           <h2 className="text-center text-white text-[43.2px] leading-[43.2px] tracking-[2px] md:text-left md:text-[48px] md:tracking-normal  space-mono-bold">
             Location
           </h2>
+        </div>
+      </section>
+
+      <section className="">
+        <div className="p-[5vw] flex items-center justify-center ">
+          <img className="object-contain w-full" src={map_mobile} />
+          {/* <img className="hidden lg:block" src={map_desktop} /> */}
+        </div>
+        <ul className="space-y-5 px-[60px] max-w-2xl mx-auto">
+          <li className="bg-[#fff4e0] h-[80px] flex items-center justify-center space-mono-bold text-h4-color text-[22px] font-extrabold">
+            New york
+          </li>
+          <li className="bg-[#fff4e0] h-[80px] flex items-center justify-center space-mono-bold text-h4-color text-[22px] font-extrabold">
+            London
+          </li>
+          <li className="bg-[#fff4e0] h-[80px] flex items-center justify-center space-mono-bold text-h4-color text-[22px] font-extrabold">
+            Yokohama
+          </li>
+          <li className="bg-[#fff4e0] h-[80px] flex items-center justify-center space-mono-bold text-h4-color text-[22px] font-extrabold">
+            Jakarta
+          </li>
+        </ul>
+      </section>
+
+      <section className="p-[5vw]">
+        <div
+          className="flex flex-col items-center lg:flex-row lg:justify-between lg:items-center
+        "
+        >
+          <h2 className="text-[48px] leading-[48px] text-h4-color lg:text-left space-mono-bold ">
+            Your city not listed?
+          </h2>
+
+          <p className="text-[15px] leading-[25px] text-p-color px-[50px] text-center lg:text-left lg:max-w-lg">
+            If you’d like to see Scoot in your hometown, be sure to let us know.
+            We track requests and plan launches based on demand. Feel free to
+            message us by clicking the link or messaging us on social.
+          </p>
+
+          <Button text="Message Us" />
         </div>
       </section>
     </>
