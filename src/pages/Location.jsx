@@ -1,4 +1,5 @@
 import map_mobile from "../assets/images/world-map-mobile.png";
+import map_tablet from "../assets/images/world-map-desktop.png";
 import { Button } from "../components/Button";
 export function Location() {
   return (
@@ -11,13 +12,13 @@ export function Location() {
         </div>
       </section>
 
-      <section className="">
+      <section className="md:relative">
         <div className="p-[5vw] flex items-center justify-center ">
-          <img className="object-contain w-full" src={map_mobile} />
-          {/* <img className="hidden lg:block" src={map_desktop} /> */}
+          <img className="object-contain md:hidden" src={map_mobile} />
+          <img className="object-contain hidden md:block" src={map_tablet} />
         </div>
         <ul className="space-y-5 px-[60px] max-w-2xl mx-auto">
-          <li className="bg-[#fff4e0] h-[80px] flex items-center justify-center space-mono-bold text-h4-color text-[22px] font-extrabold">
+          <li className="bg-[#fff4e0] h-[80px] flex items-center justify-center space-mono-bold text-h4-color text-[22px] font-extrabold md:h-[40px] md:w-[150px] md:absolute md:top-[12%] md:left-[15%]">
             New york
           </li>
           <li className="bg-[#fff4e0] h-[80px] flex items-center justify-center space-mono-bold text-h4-color text-[22px] font-extrabold">
