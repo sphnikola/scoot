@@ -18,16 +18,16 @@ export function Location() {
           <img className="object-contain hidden md:block" src={map_tablet} />
         </div>
         <ul className="space-y-5 px-[60px] max-w-2xl mx-auto">
-          <li className="bg-[#fff4e0] h-[80px] flex items-center justify-center space-mono-bold text-h4-color text-[22px] font-extrabold md:h-[40px] md:w-[150px] md:absolute md:top-[12%] md:left-[15%]">
+          <li className="bg-[#fff4e0] h-[80px] flex items-center justify-center space-mono-bold text-h4-color text-[22px] font-extrabold md:h-[40px] md:w-[150px] md:absolute md:top-[12%] md:left-[15%] md:bg-yellow-800">
             New york
           </li>
-          <li className="bg-[#fff4e0] h-[80px] flex items-center justify-center space-mono-bold text-h4-color text-[22px] font-extrabold">
+          <li className="bg-[#fff4e0] h-[80px] flex items-center justify-center space-mono-bold text-h4-color text-[22px] font-extrabold md:h-[40px] md:w-[150px] md:absolute md:top-[4%] left-[35%] md:bg-yellow-800">
             London
           </li>
-          <li className="bg-[#fff4e0] h-[80px] flex items-center justify-center space-mono-bold text-h4-color text-[22px] font-extrabold">
+          <li className="bg-[#fff4e0] h-[80px] flex items-center justify-center space-mono-bold text-h4-color text-[22px] font-extrabold md:h-[40px] md:w-[150px] md:absolute md:top-[13%] right-[10%] md:bg-yellow-800">
             Yokohama
           </li>
-          <li className="bg-[#fff4e0] h-[80px] flex items-center justify-center space-mono-bold text-h4-color text-[22px] font-extrabold">
+          <li className="bg-[#fff4e0] h-[80px] flex items-center justify-center space-mono-bold text-h4-color text-[22px] font-extrabold md:h-[40px] md:w-[150px] md:absolute md:top-[44%] right-[16%] md:bg-yellow-800">
             Jakarta
           </li>
         </ul>
