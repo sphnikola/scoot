@@ -4,6 +4,7 @@ import fb from "../assets/icons/facebook.svg";
 import ig from "../assets/icons/instagram.svg";
 import x from "../assets/icons/twitter.svg";
 import logo from "../assets/logo-white.svg";
+import { Link } from "react-router-dom";
 export function Footer() {
   return (
     <>
@@ -32,9 +33,11 @@ export function Footer() {
             <nav className="flex flex-col gap-y-14 md:flex-row md:gap-x-8 md:items-center">
               <img src={logo} className="object-contain" />
               <ul className="flex flex-col gap-y-4  text-nav-link space-mono-bold text-[16px] text-center md:flex-row md:gap-x-3">
-                <li>About</li>
-                <li>Location</li>
-                <li>Services</li>
+                <li>
+                  <a href="#">About</a>
+                </li>
+                <a>Location</a>
+                <a href="#">Services</a>
               </ul>
             </nav>
             <div className="inline-flex gap-x-5">

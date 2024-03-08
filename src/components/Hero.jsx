@@ -14,10 +14,12 @@ export function Hero() {
               placed in convenient locations in each of our cities. Use our app
               to locate the nearest bike, unlock it with a tap, and you’re away!
             </p>
-            <Button text="Get Scootin" />
-            {/* <button className="bg-button-bg px-14 py-3 border-2 border-solid border-button-bg text-white hover:text-yellow-500 hover:bg-transparent">
+            <div>
+              <Button text="Get Scootin" />
+            </div>
+            {/* <div className="bg-button-bg px-14 py-3 border-2 border-solid border-button-bg text-white hover:text-yellow-500 hover:bg-transparent">
               Get Scootin
-            </button> */}
+            </div> */}
           </div>
         </div>
       </section>
