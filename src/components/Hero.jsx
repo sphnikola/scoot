@@ -1,5 +1,4 @@
 import { Button } from "./Button";
-
 export function Hero() {
   return (
     <>
@@ -17,9 +16,6 @@ export function Hero() {
             <div>
               <Button text="Get Scootin" />
             </div>
-            {/* <div className="bg-button-bg px-14 py-3 border-2 border-solid border-button-bg text-white hover:text-yellow-500 hover:bg-transparent">
-              Get Scootin
-            </div> */}
           </div>
         </div>
       </section>
